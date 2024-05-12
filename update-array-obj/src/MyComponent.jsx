@@ -31,7 +31,7 @@ function MyComponent(){
     return(<div>
     <h2>List of Car Objects</h2>
     <ul>{cars.map((car, index) =>
-            <li key={index}>
+            <li key={index} onClick={() => handleRemoveCar(index)}>
                 {cars.year}{car.make}{car.model}
             </li>
             )}</ul>
