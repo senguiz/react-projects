@@ -2,7 +2,7 @@ import React,{useState} from "react";
 
 function ToDoList(){
 
-    const [task,setTask] = useState([""]);
+    const [task,setTask] = useState([]);
 
     const [newTask, setNewTask] = useState("");
 
